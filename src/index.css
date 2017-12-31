@@ -1,0 +1,151 @@
+.form-control {
+    display: block;
+    width: 90%;
+}
+form {
+    display: block;
+    margin-left: 30%;
+    margin-right: 20%;
+    margin-top: 2%;
+    margin-bottom:20%;
+}
+
+.btn--blue:hover {
+    background-color: #4277f4;
+}
+.btn--blue
+{
+  background-color:  #4E96E9
+}
+.btn-default{
+    background-color: #8dabcc;
+}
+BottomNavigation {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #df0f09;
+    border-color: #FF0400;
+}
+.col-xs-8 {
+    width: 66.66666667%;
+    height:100%;
+}
+.col-xs-4 {
+    width: 33.33333333%;
+}
+/* this is to cover the diffrent kind of view ports with respect to mobile responsiveness */
+/* this is to bring out the navigation menue to direct access- this is a serious problem am facing*/
+@media (min-width:320px){
+    .BodyBackgroundColor{
+        display:hidden;
+        margin-top:0px;
+
+    }
+}
+@media (min-width:375px){
+    .BodyBackgroundColor{
+        display:hidden;
+        margin-top:0px;
+
+    }
+}
+@media (min-width:425px){
+    .BodyBackgroundColor{
+        display:hidden;
+        margin-top:0px;
+
+    }
+}
+/* this is the end of the media query with respect to the mobile responsiveness */
+
+#blue_backgroundHomePage{
+     /*To support older browsers*/
+     height: 100%;
+     width: 100%;
+ 
+     /* Set the height to match that of the viewport. */
+     height: 100vh;
+ 
+     /* Set the width to match that of the viewport. */
+     width: 100vw;
+     background-repeat: no-repeat;
+     background-size: 100%; 
+}
+.hamburger{
+    width:27px;
+    height:27px;
+    position:relative;
+    left:2%;
+    top:30px;
+    
+}
+#text {
+    text-align: center;
+    font-size: 2.8125rem;
+    font-weight: 400;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1.06667em;
+    margin-left: -.04em;
+    color:whitesmoke;
+    cursor: auto;
+  }
+  MenuItem{
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  }
+  #inline{
+      display:'inline';
+  }
+/* this is for the input form */
+
+#field_info {
+    text-align: center;
+    font-size: 2.8125rem;
+    font-weight: 400;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    cursor: pointer;
+/*----------------------------Section 2 is the css thats responsible for the background design */
+     /*To support older browsers*/
+     height: 100%;
+     width: 100%;
+ 
+     /* Set the height to match that of the viewport. */
+     height: 100vh;
+ 
+     /* Set the width to match that of the viewport. */
+     width: 100vw;
+     background-size: 100%; 
+     background-color: #F5F8F8;
+  }
+  body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #00bcd4;
+}
+/* this covers the animation state of the transition from react-animation */
+.fade-enter{
+    opacity:0;
+}
+
+.fade-enter-active{
+    opacity: 1;
+    transition:opacity 200ms ease-out;
+}
+.fade-leave{
+    opacity: 1;
+}
+.fade-leave-active{
+    opacity: 0;
+    transition:opacity 200ms ease-out;
+}
+.NavLink{
+    color:red;
+}
